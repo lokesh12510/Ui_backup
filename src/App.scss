@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+// Bootstrap reset variables for Theme
+@import 'assets/sass/helpers/variables';
+
+//Mixins
+@import 'assets/sass/helpers/mixins';
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Header
+@import 'assets/sass/layout/header';
+
+// Footer
+@import 'assets/sass/layout/footer';
+
+// Sidebar
+@import 'assets/sass/layout/sidebar';
+
+// Base
+@import 'assets/sass/base/common';
+
+// Components
+@import 'assets/sass/components/table';
+
+// Modal
+@import 'assets/sass/components/modal';
